@@ -24,10 +24,10 @@ header.header {
   padding: 20px;
   color: white;
   background-image:
-    linear-gradient(45deg, #34495e 50%, transparent 10%),
-    linear-gradient(-45deg, #34495e 10%, transparent 50%),
-    linear-gradient(135deg, #34495e 10%, transparent 10%),
-    linear-gradient(-135deg, #34495e 25%, transparent 25%);
+    linear-gradient(45deg, #3572af 50%, transparent 10%),
+    linear-gradient(-45deg, #5fa3e7 10%, transparent 50%),
+    linear-gradient(135deg, #1483f1 10%, transparent 10%),
+    linear-gradient(-135deg, #5ba9f7 25%, transparent 25%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   box-shadow: 0 0 5px 0 #333333;
@@ -35,7 +35,7 @@ header.header {
 
 div.logo {
   position: absolute;
-  top: 10px;
+  top: -5px;
   left: 20px;
   width: 90px;
   height: 90px;
@@ -62,7 +62,8 @@ nav.main-menu ul {
 main {
   min-height: 
   padding-top 50px;
-  color: whitesmoke;
+  color:whitesmoke;
+  height:800px;
   background-color: lightblue;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
 }
@@ -81,6 +82,7 @@ article.blog-entry {
   background-color: rgba(241, 196, 15, 0.1);
   border-radius: 5px;
   box-shadow: 0 0 3px #cccccc;
+  height:300px;
 }
 
 .blog-entry::after {
