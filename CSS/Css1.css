@@ -135,11 +135,10 @@ figure.slides {
 
 .slides > img {
   float: left;
-  margin-right: 16px;
 }
 
 .slides > img:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 /* Подвал */
